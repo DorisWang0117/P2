@@ -1,0 +1,286 @@
+*{
+  /*background-color:#f5f5f0;*/
+}
+body {
+  /*font-family: sans-serif;*/
+  padding: 1.5rem;
+}
+
+
+
+div>div{
+  /*border:1px solid black;*/
+  padding: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+h1{
+  font-size: 3rem;
+  /*font-family: 'Ramabhadra', sans-serif;*/
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+ /* margin-top: 1rem;*/
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  /*margin-top: 0rem;*/
+  margin-bottom: 0.5rem;
+  margin-left: 0.8rem;
+}
+
+h4 {
+ /* margin-top: 3rem;*/
+  margin-bottom: 2rem;
+  margin-left: 0.8rem;
+}
+
+div  p {
+  margin-top: 0;
+  margin-left: 0.8rem;
+}
+
+div code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  margin-left: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  justify-content:flex-end;
+  padding: 0.5em 0.75em;
+  margin-left: 0.8rem;
+  margin-bottom: 1rem;
+   margin-top: 1rem;
+  color: white;
+  background-color:#b8b894;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color:#dee3ca;
+}
+
+.button-nav1 {
+  display: inline-block;
+  justify-content:flex-end;
+  padding: 0.5em 0.75em;
+  margin-left: 0.8rem;
+  margin-bottom: 1rem;
+   margin-top: 1rem;
+  color: white;
+  background-color:#b8b894;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav1:hover, .button-nav1:focus {
+  background-color:#dee3ca;
+}
+
+.button-nav2 {
+  display: inline-block;
+  justify-content:flex-end;
+  padding: 0.5em 0.75em;
+  margin-left: 0.8rem;
+  margin-bottom: 1rem;
+   margin-top: 1rem;
+  color: white;
+  background-color:#999;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav2:hover, .button-nav1:focus {
+  background-color:#dee3ca;
+}
+
+nav#menu {
+  display: flex;
+  background-color:#dee3ca;
+}
+.button{
+  border-radius: 4px;
+  background-color: #b8b894;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.text-link{
+  color: #CBD4C2;
+  text-decoration:none;
+  transition: color 0.1s ease-out;
+  margin-left:0.8rem;
+}
+
+.text-link:hover, .text-link:focus {
+  text-decoration:none;
+  color:#6d8267;
+
+}
+
+.cloth-link{
+  color: #6d8267;
+  text-decoration:none;
+  transition: color 0.1s ease-out;
+  margin-left:0.8rem;
+}
+
+.cloth-link:hover, .cloth-link:focus {
+  text-decoration:none;
+  color:#CBD4C2;
+
+}
+
+ol,ol a{
+  color: #815355;
+  text-decoration:none;
+  transition: color 0.1s ease-out;
+  margin-left:0.8rem;
+}
+
+ol:hover, ol:focus,ol a:hover, ol a:focus {
+  color: #C3B299;
+
+}
+
+ul,ul a{
+  color:#815355;
+  text-decoration:none;
+  transition: color 0.1s ease-out;
+  margin-left:0.8rem;
+}
+
+ul:hover, ul:focus,ul a:hover, ul a:focus {
+  text-decoration:underline;
+  color: #C3B299;
+
+}
+
+.heading2{
+  font-size:3rem;
+  font-family: 'Ramabhadra', sans-serif;
+  margin-left: 0.8rem;
+}
+
+.heading3{
+  font-size:3rem;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 0.8rem;
+}
+
+.heading1{
+  font-size:3rem;
+ /* font-family: 'Abril Fatface', cursive;*/
+ font-family: 'Ubuntu', sans-serif;
+  margin-left: 0.8rem;
+}
+
+.paragraph{
+  font-family: 'Lato', sans-serif;
+  margin-left: 0.8rem;
+}
+.cloth{
+  display:flex;
+}
+.cloth-brand{
+  border:0.25px solid black;
+  margin:1em;
+  text-align:center;
+  /*background-color:#C3B299;*/
+}
+img{
+  width:100%;
+  height:100%;
+}
+
+
+
+#color1{
+  background-color:#CBD4C2;
+}
+#color2{
+  background-color:#3B4C1C;
+}
+#color3{
+  background-color:#DBEBC0;
+}
+#color4{
+  background-color:#C3B299;
+}
+#color6{
+  background-color:#b8b894;
+}
+#color5{
+  background-color:#815355;
+}
+
+
+
+.combined_elements,.interactive_elements,
+.text_elements,.Citation,.Website-Colour,.structure{
+  margin: 1em 0;
+ border-top: 2px solid black;
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
