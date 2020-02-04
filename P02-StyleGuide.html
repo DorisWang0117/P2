@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>A Clothing Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="main.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ramabhadra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+
+    <h1>A Clothing Store</h1>
+
+        <p>A style guide for our clothing company</p>
+
+    <nav>
+      
+      <p>
+        <a href="#s1" class="button-nav">Interactive elements</a>
+         <a href="#s2" class="button-nav">Text elements</a>
+         <a href="#s3" class="button-nav">Combine elements</a>
+         <a href="structure.html" class="button-nav1">See Website Struture Page</a>
+        <a href="citation.html" class="button-nav1">See Citation Page</a>
+        <!-- <br>
+        <a href="web-wireframe.html" class="button-nav2">See Website Wireframe</a> 
+        <a href="mob-wireframe.html" class="button-nav2">See Mobile Wireframe</a> 
+        <a href="Web-frame/home.html" class="button-nav2">See Website wireframe(Axure) HTML</a>
+        <a href="mob-frame/home1.html" class="button-nav2">See Mobile wireframe(Axure) HTML</a> -->
+      </p>
+
+    </nav>
+
+         </header>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <div class="interactive_elements" id="s1">
+      <h2>Interactive elements</h2>
+
+    <!--in-text link-->
+      <div>
+        <h3>In-text Link</h3>
+        <h4>CSS selector:</h4>
+        <P>.text-link</P>
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="in-text-link"&gt;text link&lt;/a&gt;</code>
+        <h4>Rendered element:</h4>
+        <a class="text-link" href="#">text link</a>
+      </div>
+
+
+    <!-- Default Button styling section -->
+      <div>
+        <h3>Navigation Button</h3>
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+      </div>
+
+
+    <!--submit button-->
+
+      <div>
+        <h3>Submit/Reset Buttons</h3>
+        <h4>CSS selector:</h4>
+        <p>.submit</p>
+        <h4>Sample Code:</h4>
+        <code>&lt;input class="submit" type="submit" /&gt;</code>
+        <h4>Rendered element:</h4>
+       <!--  <input class="submit" type="submit" /> -->
+       <button class="button"><span>Submit</span></button>
+
+
+        <h4>CSS selector:</h4>
+        <p>.reset</p>
+        <h4>Sample Code:</h4>
+        <code>&lt;input class="reset" type="reset" /&gt;</code>
+        <h4>Rendered element:</h4>
+        <button class="button"><span>Reset</span></button>
+       <!--  <input class="reset" type="reset" /> -->
+     </div>
+
+    <!--text input-->
+      <div>
+        <h3>Text Input Field</h3>
+        <h4>CSS selector:</h4>
+        <p>.input-text</p>
+        <p>.input-text:active,.input-text:focus</p>
+        <h4>Sample Code:</h4>
+        <code>
+        &lt;label&gt;Email:&lt;/label&gt;
+        &lt;input class="input-text" type="text" /&gt;
+        </code>
+        <h4>Rendered element:</h4>
+        <label>Email:</label>
+        <input class="input-text" type="text" placeholder="Enter your email address"/>
+        <span class="focus-border"></span>
+      </div>
+
+    </div>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <div class="text_elements" id="s2">
+      <h2>Text styling</h2>
+
+      <div>
+        <h3>Headings</h3>
+        <h4>CSS selector:</h4>
+        <p>.heading1</p>
+    
+        <h4>Sample code:</h4>
+        <code>
+          &lt;h1 class="heading1"&gt;Heading1&lt;/h1&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <h1 class="heading1">Heading1</h1>
+
+        <h4>CSS selector:</h4>
+        <p>.heading2</p>
+    
+        <h4>Sample code:</h4>
+        <code>&lt;h2 class="heading2"&gt;Heading2&lt;/h2&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h2 class="heading2">Heading2</h2>
+    
+        <h4>CSS selector:</h4>
+        <p>.heading3</p>
+    
+        <h4>Sample code:</h4>
+        <code>
+          &lt;h3 class="heading3"&gt;Heading3&lt;/h3&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <h3 class="heading3">Heading3</h3>
+      </div>
+
+      <div>
+        <h3>Paragraphs</h3>
+        <h4>CSS selector:</h4>
+        <p>.paragraph</p>
+    
+        <h4>Sample code:</h4>
+        <code>
+          &lt;p class="paragraph"&gt;This is a paragraph&lt;/p&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <p class="paragraph">This is a paragraph</p>
+      </div>
+
+      <div>
+        <h3>Bulleted Lists</h3>
+        <h4>CSS selector:</h4>
+        <p>.bullet-list1</p>
+    
+        <h4>Sample code:</h4>
+      
+        <code>
+          <br>&lt;ul class="bullet-list1"&gt;
+          <br>&lt;li&gt;item 1&lt;/li&gt;
+          <br>&lt;li&gt;item 2&lt;/li&gt;
+          <br>&lt;/ul&gt;
+        </code>
+      
+
+        <h4>Rendered element:</h4>
+        <ul class="bullet-list1">
+        <li>item 1</li>
+        <li>item 2</li>
+    </ul>
+    
+    <h4>CSS selector:</h4>
+        <p>.bullet-list2</p>
+    
+    <h4>Sample code:</h4>
+        <code>
+<br>&lt;ul class="bullet-list2"&gt;
+  <br>&lt;li&gt;&lt;a herf="#"&gt;item1&lt;/a&gt;&lt;/li&gt;
+  <br>&lt;li&gt;&lt;a herf="#"&gt;item2&lt;/a&gt;&lt;/li&gt;
+<br>&lt;/ul&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <ul class="bullet-list2">
+      <li><a href="#">item 1</a></li>
+      <li><a href="#">item 2</a></li>
+    </ul>
+      </div>
+
+      <div>
+        <h3>numbered Lists</h3>
+        <h4>CSS selector:</h4>
+        <p>.num-list1</p>
+    
+        <h4>Sample code:</h4>
+      
+        <code>
+          <br>&lt;ol class="num-list1"&gt;
+          <br>&lt;li&gt;item 1&lt;/li&gt;
+          <br>&lt;li&gt;item 2&lt;/li&gt;
+          <br>&lt;/ol&gt;
+        </code>
+      
+
+        <h4>Rendered element:</h4>
+        <ol class="num-list1">
+        <li>item 1</li>
+        <li>item 2</li>
+    </ol>
+    
+    <h4>CSS selector:</h4>
+        <p>.num-list2</p>
+    
+    <h4>Sample code:</h4>
+        <code>
+<br>&lt;ol class="num-list2"&gt;
+  <br>&lt;li&gt;&lt;a herf="#"&gt;item1&lt;/a&gt;&lt;/li&gt;
+  <br>&lt;li&gt;&lt;a herf="#"&gt;item2&lt;/a&gt;&lt;/li&gt;
+<br>&lt;/ol&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <ol class="num-list2">
+      <li><a href="#">item 1</a></li>
+      <li><a href="#">item 2</a></li>
+    </ol>
+      </div>
+
+    </div>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <div class="combined_elements" id="s3">
+      <h2>Combined elements</h2>
+
+      <div>
+        <h3>Main Navigation</h3>
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+        <p>nav#menu</p>
+    
+    <h4>Sample code:</h4>
+    
+    <code>
+<br>&lt;nav&gt;
+  <br>&lt;a href="#" class="button-nav"&gt;Menu 1&lt;/a&gt;
+  <br>&lt;a href="#" class="button-nav"&gt;Menu 2&lt;/a&gt;
+  <br>&lt;a href="#" class="button-nav"&gt;Menu 3&lt;/a&gt;
+  <br>&lt;a href="#" class="button-nav"&gt;Menu 4&lt;/a&gt;
+<br>&lt;/nav&gt;
+   
+    </code>
+    
+    <h4>Rendered element:</h4>
+    <nav id="menu">
+      <a href="#" class="button-nav">Menu 1</a>
+      <a href="#" class="button-nav">Menu 2</a>
+      <a href="#" class="button-nav">Menu 3</a>
+      <a href="#" class="button-nav">Menu 4</a>
+    </nav>
+      </div>
+
+      <div>
+        <h3>Product Listing</h3>
+        <h4>CSS selector:</h4>
+        <p>.cloth</p>
+        <p>.cloth-brand</p>
+        <h4>Rendered element:</h4>
+        
+        <div class="cloth">
+
+        <div class="cloth-brand">
+        <div>
+          <img src="images/1.jpg" alt="women cloth">
+        </div>
+        <a class="cloth-link" href="#">sweater</a>
+        <p>$88</p>
+        <p>two color avaliable</p>
+      </div>
+
+      <div class="cloth-brand">
+        <div>
+          <img src="images/1.jpg" alt="women cloth">
+        </div>
+        <a class="cloth-link" href="#">sweater</a>
+        <p>$88</p>
+        <p>two color avaliable</p>
+      </div>
+
+      <div class="cloth-brand">
+        <div>
+          <img src="images/1.jpg" alt="women cloth">
+        </div>
+       <a class="cloth-link" href="#">sweater</a>
+        <p>$88</p>
+        <p>two color avaliable</p>
+      </div>
+
+      <div class="cloth-brand">
+        <div>
+          <img src="images/1.jpg" alt="women cloth">
+        </div>
+        <a class="cloth-link" href="#">sweater</a>
+        <p>$88</p>
+        <p>two color avaliable</p>
+      </div>
+    
+    </div>
+  </div>
+
+  <div class="structure">
+    <h3>Website Grid Structure</h3>
+    <h4>Rendered element:</h4>
+    <a href="structure.html" class="button-nav">Click Here For Website Struture Page</a>
+ </div>
+
+  <div class="Website-Colour">
+    <h3>Website Colour Swatches</h3>
+    <div id="color1">
+      <h4>Color1:</h4>
+      <p>#CBD4C2</p>
+    </div>
+
+    <div id="color2">
+      <h4>Color2:</h4>
+      <p>#3B4C1C</p>
+    </div>
+
+    <div id="color3">
+      <h4>Color3</h4>
+      <p>#DBEBC0</p>
+   </div>
+
+   <div id="color4">
+      <h4>Color4</h4>
+      <p>#C3B299</p>
+   </div>
+
+   <div id="color6">
+      <h4>Color5</h4>
+      <p>#b8b894</p>
+   </div>
+
+    <div id="color5">
+      <h4>Color5</h4>
+      <p>#815355</p>
+   </div>
+  </div>
+
+  <div class="Citation">
+    <h2>Citation Page</h2>
+    <div>
+    <h4>Rendered element:</h4>  
+    <a href="citation.html" class="button-nav">Go To Citation Page</a>
+  </div>
+</div>
+</div>
+
+     
+
+
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>
