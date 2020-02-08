@@ -12,14 +12,22 @@
 	color:#ffffff;
 }
 
+.auxiliary-function{
+	display:flex;
+	justify-content:flex-end;
+	padding-right: 5%
+}
+
 nav{
 	margin-top: 1%;
 	display:flex;
 	justify-content: center;
 }
 
+
 a{
 	margin-left: 1em;
+	color:black;
 }
 
 body{
@@ -219,7 +227,7 @@ h3{
 }
 /*about page css end*/
 
-/*ites list css start*/
+/*items list css start*/
 .items-container{
 	display:flex;
 	justify-content: space-around;
@@ -237,6 +245,55 @@ text-align: center;
 .items-left,.items-middle,.items-right{
   padding:1% 2%;
 }
+/*items list css end*/
 
+/*cart css start*/
+.cart-container{
+	display:flex;
+	justify-content: space-around;
+	margin-top: 3%
+}
 
-/*ites list css end*/
+.cart-item img{
+	width: 60%;
+
+}
+
+.cart-item{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+    width:40%;
+    margin-left:5%;
+}
+
+.btn-cart{
+	display:flex;
+	justify-content: space-between;
+	 width:60%;
+	 margin-top: 2%
+}
+
+.btn-cart button{
+	background-color:#DBEBC0;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 5px;
+	padding: 1% 2%;
+}
+
+.item-description{
+	display:flex;
+	flex-direction: column;
+	width:40%;
+}
+
+.item-description button{
+	background-color:#DBEBC0;
+	padding:2% 3%;
+}
+
+.page-divider{
+
+border: 1px solid  #3B4C1C;
+}
+/*cart css end*/
