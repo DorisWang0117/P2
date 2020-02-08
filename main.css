@@ -268,7 +268,7 @@ img{
 
 
 .combined_elements,.interactive_elements,
-.text_elements,.Citation,.Website-Colour,.structure{
+.text_elements,.Citation,.Website-Colour,.structure,#proof,.SiteMap,#wireframes{
   margin: 1em 0;
  border-top: 2px solid black;
 }
@@ -284,3 +284,13 @@ img{
 /* 
   COMBINED ELEMENTS -------------------
 */
+
+
+/*Wireframes*/
+.Template img{
+width:60%;
+}
+
+
+
+

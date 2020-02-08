@@ -1,0 +1,242 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+	border:1px solid black;
+}
+
+
+.banner{
+	display:flex;
+	background-color: #815355;
+	height:13%;
+	justify-content:center;
+	color:#ffffff;
+}
+
+nav{
+	margin-top: 1%;
+	display:flex;
+	justify-content: center;
+}
+
+a{
+	margin-left: 1em;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+h1{
+	color: #696969;
+	text-align: center;
+	font-weight:lighter;
+}
+
+h2{
+	text-align: center
+}
+
+
+.headerimg{
+	display:flex;
+	justify-content:center;
+	margin-top: 3%;
+}
+
+.headerimg img{
+	width:52%;
+}
+
+.bestseller{
+	margin-top: 2%
+}
+
+.bestseller h2{
+	display:flex;
+	justify-content:center;
+}
+
+.bestseller div{
+	display:flex;
+	justify-content:space-between;
+}
+
+
+.bestseller img{
+	width:25%;
+	margin-top: 2%
+}
+
+.specialevent{
+	margin-top: 2%
+}
+
+.specialevent div{
+	display:flex;
+	justify-content:space-around;
+}
+
+.specialevent h2{
+	display:flex;
+	justify-content:center;
+}
+
+.specialevent img{
+	width:35%;
+	margin-top: 2%
+}
+
+.bottom{
+	display:flex;
+	justify-content: space-around;
+	margin-top: 5%
+}
+
+
+.showingimg{
+	display:flex;
+	justify-content:center;
+	margin-top: 3%;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+.showingimg img{
+	width:52%;
+	/*height:60%;*/
+}
+
+.center-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.showingimg .btn {
+	margin-top:3rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color:#b8b894;
+	color: white;
+	font-size: 18px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius:0.25em;
+}
+
+.showingimg .btn:hover {
+	background-color:#dee3ca;
+}
+
+.category{
+	text-align: center;
+}
+
+#category-img{
+	display:flex;
+	margin-top:3rem;
+}
+
+#category-img img{
+	width:100%;
+	height:100%;
+
+}
+h3{
+	font-size:25px;
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 0.8rem;
+	font-weight: lighter;
+}
+.model1,.model2,.model3,.model4{
+	margin-left:0.6rem;
+	margin-right:0.6rem;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.c1-text,.c2-text,.c3-text,.c4-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*about page css start*/
+
+.header-of-about{
+	display: flex;
+}
+
+.header-of-about img{
+	height:70vw;
+	width:100%;
+	margin-top:2%;
+}
+
+.ethos{
+	margin-top: 2%;
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.ethos img{
+
+	width:30%;
+	height:30%;
+}
+
+.ethos p{
+	display:flex;
+	flex-direction: column;
+	align-content:center;
+	width:30%;
+}
+
+.store-location{
+	margin-top: 3%;
+	background-color: #C3B299;
+	display:flex;
+	justify-content: space-around;
+}
+
+.store-location img{
+	width:50%;
+}
+
+.burnaby,.vancouver,.richmond{
+	width:33%;
+	text-align:center;
+}
+/*about page css end*/
+
+/*ites list css start*/
+.items-container{
+	display:flex;
+	justify-content: space-around;
+}
+
+.items-container img{
+width:90%;
+  margin:1% 5%;
+}
+
+.items-container p{
+text-align: center;
+}
+
+.items-left,.items-middle,.items-right{
+  padding:1% 2%;
+}
+
+
+/*ites list css end*/
