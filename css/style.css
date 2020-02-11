@@ -307,5 +307,22 @@ border: 0.5px solid  #C0C0C0;
 
 .event img{
 	width:50%;
+	position: relative;
+}
+
+.event p{
+
 }
 /*event css end*/
+
+.contact-text{
+	display:flex;
+	flex-direction: column;
+	margin-top:2%;
+
+}
+.contact-text p{
+	font-weight: 0.1pt;
+     width:80%;
+     margin-left: 20%
+}
