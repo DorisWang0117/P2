@@ -288,12 +288,24 @@ text-align: center;
 }
 
 .item-description button{
-	background-color:#DBEBC0;
+	border-radius: 5px;
+	background-color:rgb(219,235, 192,5);
 	padding:2% 3%;
+	margin-top: 8%
 }
 
 .page-divider{
-
-border: 1px solid  #3B4C1C;
+border: 0.5px solid  #C0C0C0;
 }
 /*cart css end*/
+
+/*event css start*/
+.event{
+	display:flex;
+	margin-top: 2%
+}
+
+.event img{
+	width:50%;
+}
+/*event css end*/
