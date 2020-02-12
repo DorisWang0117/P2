@@ -474,3 +474,43 @@ span.password a:hover{
   	}
 
   }
+
+  /*checkout css start*/
+  .checkout-body{
+  	display:flex;
+  	max-width:1000px;
+  	margin:auto;
+  	padding: 8px;
+    justify-content: center;
+  }
+
+  .checkout-body input[type=text]{
+
+  width: 100%;
+  padding: 10px 10px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  }
+
+
+  .main-left{
+  	/*background-color: red;*/
+  	/*flex:50%;*/
+
+  }
+
+  .main-right{
+  	/*flex:50%;*/
+  }
+ .main-right>.cards{
+  	text-align: center;
+  }
+
+  .main-right img{
+  	width:5%;
+  }
+
+  /*checkout css end*/
+
