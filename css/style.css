@@ -18,6 +18,10 @@
 	padding-right: 5%
 }
 
+.auxiliary-function span{
+	font-size: 16px;
+}
+
 nav{
 	margin-top: 1%;
 	display:flex;
@@ -367,6 +371,7 @@ border: 0.5px solid  #C0C0C0;
 	width:100%;
 	  margin-top:8%;
 }
+<<<<<<< HEAD
 
 .item-description-text{
     width:40%;
@@ -392,6 +397,11 @@ border: 0.5px solid  #C0C0C0;
 
 
     /*Login css*/
+=======
+/*activities css end*/
+
+/*Login css*/
+>>>>>>> master
 form {
   border: 1px solid black;
 }
@@ -512,7 +522,11 @@ span.password a:hover{
   }
   /*Login css end*/
 
+<<<<<<< HEAD
   /*responsive*/
+=======
+  /*自适应*/
+>>>>>>> master
   @media screen and (max-width: 600px) {
   	.nav-bar a{
   		display:block;
