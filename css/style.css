@@ -340,3 +340,117 @@ border: 0.5px solid  #C0C0C0;
  width:45%;
 }
 /*activities css end*/
+
+/*Login css*/
+form {
+  border: 1px solid black;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button{
+  border-radius: 4px;
+  background-color: #b8b894;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.cancelbtn {
+   border-radius: 4px;
+  background-color:#815355;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  width: 20%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.cancelbtn:hover, .cancelbtn:focus {
+  opacity: 0.7;
+}
+
+.id-icon {
+  text-align: center;
+  margin: 24px 0 12px 0;
+
+}
+
+img.id {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.main-part {
+  padding: 30px;
+  justify-content: center;
+}
+
+span.password {
+  float: right;
+  padding-top: 16px;
+}
+
+span.password a{
+  color:#3a80e8;
+  text-decoration:none;
+}
+
+span.password a:hover{
+  color:#87a7d6;
+}
+
+@media screen and (max-width: 300px) {
+  span.password {
+     display: block;
+     float: none;
+  }
+
+  @media screen and (max-width: 800px) {
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+  /*Login css end*/
