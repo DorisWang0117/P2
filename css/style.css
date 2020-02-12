@@ -1,6 +1,6 @@
 *{
 	font-family: 'Ubuntu', sans-serif;
-	border:1px solid black;
+/*	border:1px solid black;*/
 }
 
 
@@ -16,10 +16,6 @@
 	display:flex;
 	justify-content:flex-end;
 	padding-right: 5%
-}
-
-.auxiliary-function span{
-	font-size: 16px;
 }
 
 nav{
@@ -304,15 +300,23 @@ border: 0.5px solid  #C0C0C0;
 /*cart css end*/
 
 /*event css start*/
-.event{
-	display:flex;
-	margin-top: 2%
+.event div{
+width:60%;
+margin:2em auto;
 }
 
 .event img{
-	width:50%;
-	position: relative;
+	width:100%;
 }
+
+.event p{
+	padding: 1em;
+}
+
+./*event div{
+	display:flex;
+	flex-direction: column;
+}*/
 
 .event p{
 
@@ -371,7 +375,6 @@ border: 0.5px solid  #C0C0C0;
 	width:100%;
 	  margin-top:8%;
 }
-<<<<<<< HEAD
 
 .item-description-text{
     width:40%;
@@ -397,11 +400,6 @@ border: 0.5px solid  #C0C0C0;
 
 
     /*Login css*/
-=======
-/*activities css end*/
-
-/*Login css*/
->>>>>>> master
 form {
   border: 1px solid black;
 }
@@ -522,11 +520,7 @@ span.password a:hover{
   }
   /*Login css end*/
 
-<<<<<<< HEAD
   /*responsive*/
-=======
-  /*自适应*/
->>>>>>> master
   @media screen and (max-width: 600px) {
   	.nav-bar a{
   		display:block;
