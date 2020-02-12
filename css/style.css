@@ -551,12 +551,14 @@ span.password a:hover{
 
   .main-left{
   	/*background-color: red;*/
-  	/*flex:50%;*/
+  	flex:50%;
+  	margin:5px;
 
   }
 
   .main-right{
-  	/*flex:50%;*/
+  	flex:50%;
+  	margin:5px;
   }
  .main-right>.cards{
   	text-align: center;
@@ -564,6 +566,11 @@ span.password a:hover{
 
   .main-right img{
   	width:5%;
+  }
+
+  .checkout-body{
+  	display: flex;
+  	justify-content: space-around;
   }
 
   /*checkout css end*/
