@@ -21,7 +21,6 @@
   <body>
 
     <header>
-     
     <div class="banner">
        <p>Free shipping on your first order </p>
     </div>  
@@ -34,14 +33,17 @@
 
    <h1>Accessories</h1>
     <nav>
-      <div class="nav-bar">
-        <a href=""class="nav-icon"><i class="fa fa-bars"></i></a>  
-       <a href="main.html">Home</a> 
+      <div class="bar">
+        <a href="javascript:void(0):" onclick="displayMenu()">
+          <i class="fa fa-bars"></i>
+      </div>
+      <div class="nav-bar" id="nav-bar">
+      <a href="main.html">Home</a> 
         <a href="women.html">Women</a>
         <a href="accessories.html">Accessories</a>
         <a href="event.html">Event</a>
         <a href="about.html">About</a>
-      </div>
+    </div>
     </nav>
   </header>
 
@@ -99,6 +101,18 @@
 
 </div>
 </footer> 
+
+<script>
+  function displayMenu(){
+    alert("dddd")
+    var x=document.getElementById("nav-bar");
+    if(x.style.display==""){
+      x.style.display="block"
+    }else{
+      x.style.display=""
+    }
+  }
+  </script>
 
 
 

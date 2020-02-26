@@ -5,6 +5,7 @@
   <title>Sign In</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <meta charset="utf-8">
 </head>
 <body>
@@ -13,16 +14,25 @@
     <div class="banner">
        <p>Free shipping on your first order </p>
     </div>  
+    <div class="auxiliary-function">
+      <span><input type="text" name="search">
+     <a href=""><i class="fa fa-search"></i></a ></span>
+       <span><a href="sign—in.html">SIGN IN</a><span>
+      <span><a href="cart.html">CART<i class="fa fa-shopping-cart"></i></a></span>
+    </div>
+
    <h1>Login</h1>
     <nav>
-    <div>
-      <a href="women.html">Women</a>
-      <a href="men.html">Men</a>
-      <a href="">Accessories</a>
-      <a href="">Event</a>
-      <a href="about.html">About</a>
-      <a href="signin.html">Login</a>
-
+      <div class="bar">
+        <a href="javascript:void(0):" onclick="displayMenu()">
+          <i class="fa fa-bars"></i>
+      </div>
+      <div class="nav-bar" id="nav-bar">
+      <a href="main.html">Home</a> 
+        <a href="women.html">Women</a>
+        <a href="accessories.html">Accessories</a>
+        <a href="event.html">Event</a>
+        <a href="about.html">About</a>
     </div>
     </nav>
   </header>
@@ -55,6 +65,18 @@
   </div>
 </form>
 </div>
+
+<script>
+  function displayMenu(){
+    alert("dddd")
+    var x=document.getElementById("nav-bar");
+    if(x.style.display==""){
+      x.style.display="block"
+    }else{
+      x.style.display=""
+    }
+  }
+  </script>
 
 </body>
 </html>
