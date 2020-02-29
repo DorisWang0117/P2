@@ -20,8 +20,9 @@
 
 nav{
 	margin-top: 1%;
-	display:flex;
-	justify-content: center;
+  text-align: center;
+	/*display:flex;
+	justify-content: center;*/
 }
 
 
@@ -521,10 +522,21 @@ span.password a:hover{
   /*Login css end*/
 
   /*responsive*/
+
+  .bar{
+  	display:none;
+  }
   @media screen and (max-width: 600px) {
   	.nav-bar a{
   		display:block;
   		text-align: center;
+  	}
+
+  	.nav-bar{
+  		display:none;
+  	}
+  	.bar{
+  		display:block;
   	}
 
   }

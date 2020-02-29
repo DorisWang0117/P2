@@ -9,29 +9,32 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<header>
-   <div class="banner">
-     <p>Free shipping on your first order </p>
-   </div>	
-   <div class="auxiliary-function">
+ <header>
+    <div class="banner">
+       <p>Free shipping on your first order </p>
+    </div>  
+    <div class="auxiliary-function">
       <span><input type="text" name="search">
      <a href=""><i class="fa fa-search"></i></a ></span>
        <span><a href="sign—in.html">SIGN IN</a><span>
       <span><a href="cart.html">CART<i class="fa fa-shopping-cart"></i></a></span>
     </div>
 
-   <h1>Doris Wang</h1>
-   <nav>
-    <div class="nav-bar">
-      <a href=""class="nav-icon"><i class="fa fa-bars"></i></a>  
+   <h1>Event</h1>
+    <nav>
+      <div class="bar">
+        <a href="javascript:void(0):" onclick="displayMenu()">
+          <i class="fa fa-bars"></i>
+      </div>
+      <div class="nav-bar" id="nav-bar">
       <a href="main.html">Home</a> 
         <a href="women.html">Women</a>
-        <a href="accessories.html">Accessories</a>
+        <a href="accessories.html">Men</a>
         <a href="event.html">Event</a>
         <a href="about.html">About</a>
     </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 <main>
 	<div class="event">
   <!--   <div>
@@ -61,6 +64,16 @@
 
 </div>
 </footer> 
+<script>
+  function displayMenu(){
+    var x=document.getElementById("nav-bar");
+    if(x.style.display==""){
+      x.style.display="block"
+    }else{
+      x.style.display=""
+    }
+  }
+  </script>
 
 </body>
 </html>
