@@ -809,5 +809,13 @@ span.password a:hover{
   	justify-content: space-around;
   }
 
+   @media screen and (max-width: 600px) {
+  .checkout-body{
+    display: block;
+   }
+   .main-right{
+    margin-top:3rem;
+   }
+  }
   /*checkout css end*/
 
