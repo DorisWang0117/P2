@@ -224,6 +224,11 @@ h3{
 	display: flex;
 }
 
+.ethos-h2 h2{
+  font-size: 35px;
+  text-align: center;
+}
+
 .header-of-about img{
 	height:70vw;
 	width:100%;
@@ -232,13 +237,13 @@ h3{
 
 .ethos{
 	margin-top: 2%;
+  text-align: center;
 	display:flex;
-	justify-content: space-evenly;
+	/*justify-content: space-evenly;*/
 }
 
-.ethos img{
-
-	width:30%;
+/*.ethos img{
+  width:30%;
 	height:30%;
 }
 
@@ -247,23 +252,60 @@ h3{
 	flex-direction: column;
 	align-content:center;
 	width:30%;
+}*/
+
+.ethos-left{
+  text-align: center;
+  flex-basis: 60%;
+}
+
+.ethos-right{
+  flex-basis: 40%;
+  margin:5rem;
 }
 
 .store-location{
-	margin-top: 3%;
-	background-color: #C3B299;
+	margin-top: 5rem;
+	background-color: #dadbd7;
 	display:flex;
 	justify-content: space-around;
 }
 
 .store-location img{
-	width:50%;
+  margin-top: 2rem;
+	width:60%;
 }
 
 .burnaby,.vancouver,.richmond{
 	width:33%;
 	text-align:center;
 }
+
+@media screen and (max-width: 600px){
+  .ethos{
+    display: block;
+    text-align: center;
+  }
+  .ethos p{
+    text-align: center;
+    /*width:80%;*/
+  }
+  .ethos img{
+    width:70%;
+  }
+  .store-location{
+    display:block;
+    text-align: center;
+  }
+ .burnaby,.vancouver,.richmond{
+  width: 100%;
+ }
+ .store-location img{
+  width: 70%;
+ }
+
+}
+
 /*about page css end*/
 
 /*items list css start*/
