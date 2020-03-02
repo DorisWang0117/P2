@@ -1,93 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Home</title>
-    <link href="css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  </head>
-  <body>
-    <header>
+<head>
+  <title>Home</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+  <header>
     <div class="banner">
-       <p>Free shipping on your first order </p>
-    </div>
-    <div class="auxiliary-function">
-      <span><input type="text" name="search">
+     <p>Free shipping on your first order </p>
+   </div>
+   <div class="auxiliary-function">
+    <span><input type="text" name="search">
      <a href=""><i class="fa fa-search"></i></a ></span>
-       <span><a href="sign—in.html">SIGN IN</a><span>
+     <span><a href="sign—in.html">SIGN IN</a><span>
       <span><a href="cart.html">CART<i class="fa fa-shopping-cart"></i></a></span>
     </div>
 
     <h1>Doris Wang</h1>
     <nav>
       <div class="bar">
-          <a href="javascript:void(0):" onclick="displayMenu()">
+        <a href="javascript:void(0):" onclick="displayMenu()">
          <i class="fa fa-bars"></i>
+       </div>
+       <div class="nav-bar" id="nav-bar">
+        <!-- <a href=""class="nav-icon"><i class="fa fa-bars"></i></a>   -->
+        <a href="women.html">Women</a>
+        <a href="accessories.html">Men</a>
+        <a href="event.html">Event</a>
+        <a href="about.html">About</a>
       </div>
-      <div class="nav-bar" id="nav-bar">
-      <!-- <a href=""class="nav-icon"><i class="fa fa-bars"></i></a>   -->
-      <a href="women.html">Women</a>
-      <a href="accessories.html">Men</a>
-      <a href="event.html">Event</a>
-      <a href="about.html">About</a>
-    </div>
     </nav>
   </header>
-<main>
-<div class="headerimg">
-  <img src="images/headerwoman.jpg" alt="headerimg1">
-  <img src="images/headerman.jpg" alt="headerimg2">
+  <main>
+    <div class="headerimg">
+      <img src="images/headerwoman.jpg" alt="headerimg1">
+      <img src="images/headerman.jpg" alt="headerimg2">
 
-</div>
+    </div>
 
-<section class="bestseller">
-  <h2>Best Seller</h2>
-  <div>
-  <img src="images/bestselling1.jpg" alt="bestselling1">
-  <img src="images/bestselling2.jpg" alt="bestselling2">
-  <img src="images/bestselling3.jpg" alt="bestselling3">
-  <img src="images/bestselling4.jpg" alt="bestselling4">
+
+<div class="category" id="bestseller">
+    <h2>Best Seller</h2>
+
+      <div id="category-img">
+      <div class="model1">
+      <img src="images/bestselling1.jpg" alt="bestselling1">
+      <div class="c1-text">Top Seller 1</div>
+    </div>
+
+    <div class="model2">
+      <img src="images/bestselling2.jpg" alt="bestselling2">
+      <div class="c2-text">Top Seller 2</div>
+    </div>
+
+     <div class="model3">
+      <img src="images/bestselling3.jpg" alt="bestselling3">
+      <div class="c3-text">Top Seller 3</div>
+    </div>
   </div>
-</section>
 
-<div class="specialevent">
-  <h2>Special Event</h2>
 
-  <div class=specialevent-form>
+  <div class="specialevent">
+    <h2>Special Event</h2>
 
-  <div class="specialevent1">
-    <img src="images/specialevent1.jpg" alt="specialevent1">
-    <p>Lorem ipsum dolor sit amet</p>
-</div>
+    <div class=specialevent-form>
 
-  <div class="specialevent2">
-      <img src="images/specialevent2.jpg" alt="specialevent2">
-      <p>Lorem ipsum dolor sit amet</p>
+      <div class="specialevent1">
+        <img src="images/specialevent1.jpg" alt="specialevent1">
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+
+      <div class="specialevent2">
+        <img src="images/specialevent2.jpg" alt="specialevent2">
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+
+    </div>
   </div>
-  
-</div>
-</div>
 
 
 </main>
 
 <footer>
   <div class="bottom">
-  <div>
-    <h3>company</h3>
-    <a href="about.html"><p>About</p></a>
-    <a href="contactus.html"><p>Contact</p></a>
+    <div>
+      <h3>company</h3>
+      <a href="about.html"><p>About</p></a>
+      <a href="contactus.html"><p>Contact</p></a>
+    </div>
+
+    <div>
+      <h3>Help</h3>
+      <a href="privacy.html"><p>shipping & return privacy</p></a>
+    </div>
+
+
   </div>
-
-<div>
-    <h3>Help</h3>
-    <a href="privacy.html"><p>shipping & return privacy</p></a>
-</div>
-
-
-</div>
 </footer> 
 
 <script>
@@ -99,9 +111,9 @@
       x.style.display=""
     }
   }
-  </script>
+</script>
 
 
-  </body> 
+</body> 
 
-  </html>
+</html>
