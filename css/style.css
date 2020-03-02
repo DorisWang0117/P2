@@ -135,7 +135,7 @@ h2{
 }*/
 
 @media screen and (max-width: 600px){
-  .model1,.model2,.model3{
+  .model1,.model2,.model3,.model4{
     padding:1rem;
   }
 
