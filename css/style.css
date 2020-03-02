@@ -118,7 +118,7 @@ h2{
 }*/
 
 #bestseller h2{
-  margin-top: 2.5rem;
+  margin-top: 4rem;
   font-size:30px;
 }
 
@@ -127,12 +127,16 @@ h2{
 }
 
 .specialevent{
-	margin-top: 2%
+	margin-top:2%;
 }
 
+/*.specialevent h2{
+  font-size:28px;
+}*/
+
 @media screen and (max-width: 600px){
-  .model2,.model3{
-    margin-top:2rem;
+  .model1,.model2,.model3{
+    padding:1rem;
   }
 
 }
