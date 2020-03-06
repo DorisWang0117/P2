@@ -1,10 +1,8 @@
 *{
 	font-family: 'Ubuntu', sans-serif;
-/* border:1px solid black;*/
 }
 
 .alert {
-  /*padding: 20px;*/
   background-color: #f44336;
   color: white;
   display:none;
@@ -545,7 +543,6 @@ h3{
   }
 
   .item-description8{
-    /*border:1px solid red;*/
     text-align:center;
   }
 
@@ -672,7 +669,6 @@ h3{
 }
 .item-detail{
   display:flex;
-  /*justify-content: center;*/
   text-align: center;
   width:100%;
   margin-top:8%;
