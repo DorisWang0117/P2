@@ -184,8 +184,13 @@ h2{
   font-size:30px;
 }
 
-#bestseller .c1-text,.c2-text,.c3-text{
-  font-size: 20px;
+#bestseller,.c1-text,.c2-text,.c3-text{
+  font-size: 25px;
+  
+}
+
+.c1-text,.c2-text,.c3-text{
+ text-shadow: 2px 2px 4px #748074;
 }
 
 .specialevent{
@@ -272,6 +277,7 @@ h4{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+  font-size:35px;
 }
 
 .showingimg .btn {
@@ -1004,5 +1010,9 @@ span.password a:hover{
 
 .citation-title{
   text-align: left
+}
+
+.logo{
+  color:#959695;
 }
 
