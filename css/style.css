@@ -162,12 +162,32 @@ h2{
 }
 
 .headerimg img{
-	width:52%;
+ width:100%;
+  height: auto;
+}
+
+.headerimg>div{
+ flex-basis:50%;
 }
 
 .event-text{
   border-bottom: 1px solid black;
 }
+
+/*@media screen and (max-width: 360px){
+ .event-text p{
+  text-align: center;
+  font-size:10px;
+ }
+  }*/
+
+  @media screen and (max-width: 375px){
+ .event-text p{
+  text-align: center;
+  font-size:10px;
+ }
+  }
+
 
 .event-date{
   font-weight: lighter;
@@ -263,16 +283,20 @@ h4{
 	font-size: 18px;
 }
 .showingimg img{
-	width:52%;
-	/*height:60%;*/
+width:100%;
+  height: auto;
 }
+.women-header-im,.men-header-img{
+ flex-basis:50%;
+}
+
 
 .center-text {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-  font-size:35px;
+  font-size:20px;
 }
 
 .showingimg .btn {
@@ -1002,6 +1026,11 @@ span.password a:hover{
 
 .citation-title{
   text-align: left
+}
+
+.citation-btn{
+  border:1px dotted black;
+  border-radius: 5px;
 }
 
 .logo{
