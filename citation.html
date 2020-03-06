@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <link href="citation-style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ramabhadra&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
@@ -11,43 +11,176 @@
 
 <body>
 	<header>
-		<h1>Citation</h1>
-		<nav>
-      
-      <p>
-        <a href="P02-StyleGuide.html" class="button-nav">See Style Guide Page</a>
-        <!-- <a href="web-wireframe.html" class="button-nav">See Website Wireframe</a> 
-        <a href="mob-wireframe.html" class="button-nav">See Mobile Wireframe</a> 
-        <a href="Web-frame/home.html" class="button-nav2">See Website wireframe(Axure) HTML</a>
-        <a href="mob-frame/home1.html" class="button-nav2">See Mobile wireframe(Axure) HTML</a> -->
-      </p>
-
+        <nav>
+      <div class="bar">
+        <a href="javascript:void(0):" onclick="displayMenu()">
+         <i class="fa fa-bars"></i></a>
+       </div>
+       <div class="nav-bar" id="nav-bar">
+        <!-- <a href=""class="nav-icon"><i class="fa fa-bars"></i></a>   -->
+        <a href="main.html" class="menu-current">Home</a> 
+        <a href="women.html">Women</a>
+        <a href="men.html">Men</a>
+        <a href="event.html">Event</a>
+        <a href="about.html">About</a>
+      </div>
     </nav>
+		<h1>Citation</h1>
+
+
 	</header>
 
 	<main>
 		<div class="style-guide">
-	    	<h2>Style Guide</h2>
-	    	<a href="http://www.sfu.ca/~jwa208/iat339/IAT339-P01/P01.html">Based On P01 Style Guide</a>
+	    	<h2 class="citation-title">Style Guide</h2>
+	    	<a href="P02-StyleGuide.html" class="button-nav">See Style Guide Page</a>
 	    	<p>http://www.sfu.ca/~jwa208/iat339/IAT339-P01/P01.html</p>
 	    </div>
 
-		<div class="button">
-		<h2>Button Tutorial</h2>
+		<div>
+		<h2 class="citation-title">See Button Tutorial</h2>
 		<a href="https://www.w3schools.com/css/css3_buttons.asp">Button Tutorial</a>
 		<p>https://www.w3schools.com/css/css3_buttons.asp</p>
 	    </div>
+         
+        <h2 class="citation-title">Font Awesome tutorial</h2> 
+        <a href="https://www.w3schools.com/icons/fontawesome_icons_text.asp">See Font Awesome tutorial</a>
+        <p>https://www.w3schools.com/icons/fontawesome_icons_text.asp</p>
+
 
 	    <div class="images">
-	    	<h2>Images Sources</h2>
-	    	<a href="https://www.oakandfort.com/BUCKET-BAG-3515_2?location=&quantity=1&Size=One%20Size">Women's Sweather</a>
+	    	<h2 class="citation-title">Images Sources</h2>
+	    	<a href="https://www.oakandfort.com/BUCKET-BAG-3515_2?location=&quantity=1&Size=One%20Size">Women's Sweater</a>
 	    	<p>https://www.oakandfort.com/BUCKET-BAG-3515_2?location=&quantity=1&Size=One%20Size</p>
-	    	<img src="images/1.jpg" alt="women's sweather">
+	    	<a href="https://ca.oakandfort.com/CROPPED-SWEATER-4523">Sweater 01</a>
+            <p>https://ca.oakandfort.com/CROPPED-SWEATER-45232</p>
+            <a href="https://ca.oakandfort.com/CROPPED-CARDIGAN-4247">Sweater 02</a>
+            <p>https://ca.oakandfort.com/CROPPED-CARDIGAN-4247</p>
+            <a href="https://ca.oakandfort.com/SWEATER-4592">Sweater 03</a>
+            <p>https://ca.oakandfort.com/SWEATER-4592</p>
+            <a href="https://ca.oakandfort.com/SWEATER-4244">Sweater 04</a>
+            <p>https://ca.oakandfort.com/SWEATER-4244</p>
+            <a href="https://ca.oakandfort.com/REVERSIBLE-SWEATER-4316">Sweater 05</a>
+            <p>https://ca.oakandfort.com/REVERSIBLE-SWEATER-4316</p>
+            <a href="https://ca.oakandfort.com/CROPPED-CARDIGAN-5064?location=&quantity=1&size=One%20Size">Sweater 06</a>
+            <p>https://ca.oakandfort.com/CROPPED-CARDIGAN-5064?location=&quantity=1&size=One%20Size6</p>
+            <a href="https://ca.oakandfort.com/SWEATER-4242">Sweater 07</a>
+            <p>https://ca.oakandfort.com/SWEATER-4242</p>
+            <a href="https://www.oakandfort.com/CARDIGAN-3878">Sweater 08</a>
+            <p>https://www.oakandfort.com/CARDIGAN-3878</p>
+             <a href="https://ca.oakandfort.com/SWEATER-4246">Sweater 09</a>
+            <p>https://ca.oakandfort.com/SWEATER-4246</p>
+             <a href="https://ca.oakandfort.com/CARDIGAN-4227">main page</a>
+            <p>https://ca.oakandfort.com/CARDIGAN-4227</p>
+             <a href="https://ca.oakandfort.com/SWEATER-3940">main page</a>
+            <p>https://ca.oakandfort.com/SWEATER-3940</p>
+            <a href="https://ca.oakandfort.com/BUCKET-BAG-3515_2?location=&quantity=1&size=One%20Size">Top Seller1</a>
+            <p>https://ca.oakandfort.com/BUCKET-BAG-3515_2?location=&quantity=1&size=One%20Size</p>
+            <a href="https://ca.oakandfort.com/LONG-SLEEVE-TSHIRT-3961">Top Seller2</a>
+            <p>https://ca.oakandfort.com/LONG-SLEEVE-TSHIRT-3961</p>
+            <a href="https://ca.oakandfort.com/LONG-SLEEVE-TSHIRT-4141">Top Seller3</a>
+            <p>https://ca.oakandfort.com/LONG-SLEEVE-TSHIRT-4141</p>
+            <a href="https://ca.oakandfort.com/womens">New Arrivals Main page</a>
+            <p>https://ca.oakandfort.com/womens</p>
+            <a href="https://www.oakandfort.com/mens/all_mens_clothing">New Activities Main page</a>
+            <p>https://www.oakandfort.com/mens/all_mens_clothing</p>
+            <a href="https://www.acnestudios.com/ca/en/short-trench-coat-navy-khaki/A90214-BUG.html?categid=woman-outerwear">Women Catagory1</a>
+            <p>https://www.acnestudios.com/ca/en/short-trench-coat-navy-khaki/A90214-BUG.html?categid=woman-outerwear</p>
+            <a href="https://www.acnestudios.com/ca/en/distressed-suede-biker-jacket-antique-brown/A70057-ADT.html?categid=woman-outerwear">Women Catagory2</a>
+            <p>https://www.acnestudios.com/ca/en/distressed-suede-biker-jacket-antique-brown/A70057-ADT.html?categid=woman-outerwear</p>
+            <a href="https://www.acnestudios.com/ca/en/reverse-label-t-shirt-black/AL0119-900.html">Women Catagory3</a>
+            <p>https://www.acnestudios.com/ca/en/reverse-label-t-shirt-black/AL0119-900.html</p>
+            <a href="https://www.acnestudios.com/ca/en/reverse-logo-t-shirt-dress-poppy-red/A20191-BCB.html?categid=woman-dresses">Women Catagory4</a>
+            <p>https://www.acnestudios.com/ca/en/reverse-logo-t-shirt-dress-poppy-red/A20191-BCB.html?categid=woman-dresses</p>
+            <a href="https://www.oakandfort.com/CARDIGAN-K001?Size=One%20Size&location=&quantity=1&Size=One%20Size&Color=Black">Men Header image1</a>
+            <p>https://www.oakandfort.com/CARDIGAN-K001?Size=One%20Size&location=&quantity=1&Size=One%20Size&Color=Black</p>
+             <a href="https://ca.oakandfort.com/SWEATSHIRT-4370">Men Header image2</a>
+            <p>https://ca.oakandfort.com/SWEATSHIRT-4370</p>
+            <a href="https://www.acnestudios.com/ca/en/suede-bomber-jacket-khaki-green/B70065-AB6.html?categid=man-outerwear">Men Catagory1</a>
+            <p>https://www.acnestudios.com/ca/en/suede-bomber-jacket-khaki-green/B70065-AB6.html?categid=man-outerwear</p>
+            <a href="https://www.acnestudios.com/ca/en/cotton-canvas-trench-coat-mushroom-beige/B90355-ADY.html?categid=man-outerwear">Men Catagory2</a>
+            <p>https://www.acnestudios.com/ca/en/cotton-canvas-trench-coat-mushroom-beige/B90355-ADY.html?categid=man-outerwear</p>
+            <a href="https://www.everlane.com/products/mens-renew-backpack-warm-quartz">Men Catagory3</a>
+            <p>https://www.everlane.com/products/mens-renew-backpack-warm-quartz</p>
+            <a href="https://www.acnestudios.com/ca/en/oversized-trench-coat-black/B90257-900.html?categid=man-outerwear">Men Catagory4</a>
+            <p>https://www.acnestudios.com/ca/en/oversized-trench-coat-black/B90257-900.html?categid=man-outerwear</p>
+            <a href="https://www.cosstores.com/au/studio/projects/">Event1</a>
+            <p>https://www.cosstores.com/au/studio/projects/</p>
+            <a href="https://www.cosstores.com/au/studio/projects/">Event2</a>
+            <p>https://www.cosstores.com/au/studio/projects/</p>
+            <a href="https://www.cosstores.com/au/studio/projects/">Event3</a>
+            <p>https://www.cosstores.com/au/studio/projects/</p>
+            <a href="https://milled.com/oak-fort/winter-tide-an-editorial-1c0aqziWLb8emovs">About1</a>
+            <p>https://milled.com/oak-fort/winter-tide-an-editorial-1c0aqziWLb8emovs</p>
+            <a href="https://ca.oakandfort.com/beauty/colour">Ethos</a>
+            <p>https://ca.oakandfort.com/beauty/colour</p>
+            <a href="https://www.e-architect.co.uk/new-york/everlane-store-williamsburg-brooklyn">Location1</a>
+            <p>https://www.e-architect.co.uk/new-york/everlane-store-williamsburg-brooklyn</p>
+            <a href="https://www.e-architect.co.uk/new-york/everlane-store-williamsburg-brooklyn">Location2</a>
+            <p>https://www.e-architect.co.uk/new-york/everlane-store-williamsburg-brooklyn</p>
+            <a href="https://www.e-architect.co.uk/new-york/everlane-store-williamsburg-brooklyn">Location3</a>
+            <p>https://www.e-architect.co.uk/new-york/everlane-store-williamsburg-brooklyn</p>
+            <a href="https://www.aritzia.com/en/product/only-ruched-slip-dress/74214.html?dwvar_74214_color=15725">Item Description1</a>
+            <p>https://www.aritzia.com/en/product/only-ruched-slip-dress/74214.html?dwvar_74214_color=15725</p>
+            <a href="https://www.aritzia.com/en/product/only-ruched-slip-dress/74214.html?dwvar_74214_color=15725">Item Description2</a>
+            <p>https://www.aritzia.com/en/product/only-ruched-slip-dress/74214.html?dwvar_74214_color=15725</p>
+            <a href="https://www.aritzia.com/en/product/only-ruched-slip-dress/74214.html?dwvar_74214_color=15725">Item Description3</a>
+            <p>https://www.aritzia.com/en/product/only-ruched-slip-dress/74214.html?dwvar_74214_color=15725</p>
+             <a href="https://www.aritzia.com/en/product/only-ruched-slip-dress/74214.html?dwvar_74214_color=15725">Item Description4</a>
+            <p>https://www.aritzia.com/en/product/only-ruched-slip-dress/74214.html?dwvar_74214_color=15725</p>
+            <a href="https://commons.wikimedia.org/wiki/File:American_Express_logo_(2018).svg">American express icon</a>
+            <p>https://commons.wikimedia.org/wiki/File:American_Express_logo_(2018).svg</p>
+            <a href="https://seeklogo.com/free-vector-logos/interac">interact icon</a>
+            <p>https://seeklogo.com/free-vector-logos/interac</p>
+            <a href="https://favpng.com/png_view/mastercard-icon-logo-payment-visa-mastercard-paypal-png/nhnRW778">master card</a>
+            <p>https://favpng.com/png_view/mastercard-icon-logo-payment-visa-mastercard-paypal-png/nhnRW778</p>
+               <a href="https://www.iconfinder.com/icons/2593672/electron_visa_icon">Visa icon</a>
+            <p>https://www.iconfinder.com/icons/2593672/electron_visa_icon</p>
+
+
+
+
+            <h2 class="citation-title">Text source</h2>
+            <a href=" https://ca.oakandfort.com/DRESS-3269">Item Description</a>
+            <p> https://ca.oakandfort.com/DRESS-3269</p>
+            <a href="https://vancouversun.com/life/fashion-beauty/style-qa-oak-fort-gets-into-the-beauty-business">Activity1</a>
+            <p>https://vancouversun.com/life/fashion-beauty/style-qa-oak-fort-gets-into-the-beauty-business</p>
+            <a href="https://blog.oakandfort.com/ofchangemakers?_ga=2.262114958.2006082381.1583367260-25578628.1577731776">Activity2</a>
+            <p>https://blog.oakandfort.com/ofchangemakers?_ga=2.262114958.2006082381.1583367260-25578628.1577731776</p>
+            <a href="https://blog.oakandfort.com/ofchangemakers?_ga=2.262114958.2006082381.1583367260-25578628.1577731776">Activity3</a>
+            <p>https://blog.oakandfort.com/ofchangemakers?_ga=2.262114958.2006082381.1583367260-25578628.1577731776</p>
+            <a href="https://ca.oakandfort.com/contact-us">Contact Us</a>
+            <p>https://ca.oakandfort.com/contact-us</p>
+            <a href="https://ca.oakandfort.com/help-center?section=returns-and-exchanges">Privacy</a>
+            <p>https://ca.oakandfort.com/help-center?section=returns-and-exchanges</p>
+           
+
+
 
 	    </div>
 
 
 	</main>
+    <footer>
+  <div class="bottom">
+    <div>
+      <h4>Company</h4>
+      <a href="about.html"><p>About</p></a>
+      <a href="citation.html"><p>Our Citation</p></a>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <a href="privacy.html"><p>Shipping & return privacy</p></a>
+      <a href="P02-StyleGuide.html"><p>See Styleguide</p></a>
+    </div>
+    <div>
+      <h4>Contact Us</h4>
+       <a href="contactus.html"><p>Contact</p></a>
+    </div>
+
+
+  </div>
+</footer> 
 	
 
 </body>

@@ -7,34 +7,36 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script src="javascript/javascript.js" type="text/javascript"></script>
 </head>
 <body>
  <header>
    <div class="banner">
-     <p>Free shipping on your first order </p>
+     <a href="privacy.html"><p>Free shipping on your first order </p></a>
    </div>	
-  <div class="auxiliary-function">
-      <span><input type="text" name="search">
-     <a href=""><i class="fa fa-search"></i></a ></span>
-       <span><a href="sign—in.html">SIGN IN</a><span>
+ <div class="auxiliary-function">
+    <span><input type="text" name="search">
+     <a href="cart.html"><i class="fa fa-search"></i></a ></span>
+     <span><a href="signin.html">SIGN IN</a><span>
       <span><a href="cart.html">CART<i class="fa fa-shopping-cart"></i></a></span>
     </div>
 
-   <h1>Doris Wang</h1>
-   <nav>
+  
+    <h1><a href="main.html">Double D Project</a></h1>
+</header>
+<nav>
     <div class="bar">
         <a href="javascript:void(0):" onclick="displayMenu()">
-          <i class="fa fa-bars"></i>
+          <i class="fa fa-bars"></i></a>
       </div>
     <div class="nav-bar" id="nav-bar">
       <a href="main.html">Home</a> 
         <a href="women.html">Women</a>
-        <a href="accessories.html">Men</a>
+        <a href="men.html">Men</a>
         <a href="event.html">Event</a>
-        <a href="about.html">About</a>
+        <a href="about.html"class="menu-current">About</a>
     </div>
   </nav>
-</header>
 <main>
 
   <div class="header-of-about">
@@ -52,23 +54,24 @@
 
   <div class="ethos-right">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.
+      Founded in Vancouver in 2010, Double D Project produces men's and women's clothing, shoes and accessories based on the idea that “fashion should be uncomplicated and thoughtfully designed.” It launched a homeware collection in 2016 and a line of beauty products earlier this year.
     </p>
   </div>
   </div>
 
+
   <div class="store-location">
    <div class="burnaby">
     <img src="images/location1.jpg" alt="location">
-    <p>Burnaby Store</p>
+    <a href="https://www.google.com/maps"><p>Burnaby Store</p></a>
   </div>
   <div class="vancouver">
     <img src="images/location2.jpg" alt="location">
-    <p>Vancouver Store</p>
+     <a href="https://www.google.com/maps"><p>Vancouver Store</p></a>
   </div>
   <div class="richmond">
     <img src="images/location3.jpg" alt="location">
-    <p>Richmond Store</p>
+    <a href="https://www.google.com/maps"><p>Richmond Store</p></a>
   </div>
 </div>
 
@@ -78,32 +81,19 @@
 <footer>
   <div class="bottom">
   <div>
-    <h3>company</h3>
-    <a href="about.html"><p>About</p></a>
-    <a href="contactus.html"><p>Contact</p></a>
-  </div>
-
-<div>
-    <h3>Help</h3>
-    <a href="privacy.html"><p>shipping & return privacy</p></a>
-</div>
-
-
+      <h4>Company</h4>
+      <a href="about.html"><p>About</p></a>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <a href="privacy.html"><p>shipping & return privacy</p></a>
+    </div>
+    <div>
+      <h4>Contact Us</h4>
+       <a href="contactus.html"><p>Contact</p></a>
+    </div>
 </div>
 </footer> 
-<script>
-  function displayMenu(){
-    var x=document.getElementById("nav-bar");
-    if(x.style.display==""){
-      x.style.display="block"
-    }else{
-      x.style.display=""
-    }
-  }
-  </script>
-
-
-
 
 </body>	
 
